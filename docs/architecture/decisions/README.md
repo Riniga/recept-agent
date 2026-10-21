@@ -15,4 +15,7 @@ mellan dem. Se [`docs/standards/documentation.md`](../../standards/documentation
 
 | ADR | Beslut |
 |-----|--------|
-<!-- One row per ADR, in numeric order. Add a row when you write ADR-001. -->
+| [ADR-001](ADR-001-follow-skanska-development-methodology.md) | Follow Skanskas utvecklingsmetodik — Accepted |
+| [ADR-002](ADR-002-python-fastapi-stack.md) | Python with FastAPI, Jinja2, Pydantic; Conda + pip-tools — Accepted |
+| [ADR-003](ADR-003-monorepo-one-app-per-responsibility.md) | One repository, one app per responsibility — Accepted |
+| [ADR-004](ADR-004-deploy-every-app-to-one-azure-environment.md) | Deploy every app to one Azure environment on merge to `main` — Accepted (hosting service Proposed) |

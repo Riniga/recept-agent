@@ -3,7 +3,9 @@
 ## Reporting a vulnerability
 
 If you believe you have found a security vulnerability in this project, **do not open a
-public issue or pull request.** Report it directly to <the project owner / named contact>.
+public issue or pull request.** Report it directly to the project owner, Rickard Nisses-Gagnér, via GitHub's private
+vulnerability reporting for this repository (Security → Report a vulnerability) once it
+is enabled (MVP-001 phase 7).
 
 <!-- If your organisation has a central security function and coordinated vulnerability
      disclosure (CVD) process, point at it here rather than inventing a parallel one — see
@@ -20,9 +22,7 @@ central one.
 
 ## `security.txt`
 
-<!-- If you publish a machine-readable security.txt (RFC 9116) at
-     /.well-known/security.txt, note where it's served from. If you don't yet, say so and
-     track it as a gap rather than silently having none. -->
+Not published yet. Tracked as a gap in the first methodology assessment (MVP-001).
 
 ## Secrets and configuration
 

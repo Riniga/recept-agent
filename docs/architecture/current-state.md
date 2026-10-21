@@ -8,29 +8,31 @@ in the same PR as any change to an app's status, test count, or key capabilities
 
 | App | Status | Tests | Key capabilities |
 |-----|--------|-------|-------------------|
-| `<app-1>` | *(Planned / In progress / Implemented)* | *(count)* | *(a terse, comma-separated list — not prose)* |
+| `api` | Planned (MVP-001) | 0 | health endpoint |
+| `web` | Planned (MVP-001) | 0 | start page, api status, health endpoint |
 
-## Shared package — \<shared-package-name\>
+## Shared packages
 
-<!-- What's actually in it, and why it earned the "reused by ≥2 apps" bar — link the ADR
-     that recorded that boundary decision. -->
+None. A package is created only when code is reused by at least two apps
+([ADR-003](decisions/ADR-003-monorepo-one-app-per-responsibility.md)).
 
 ## Conventions
 
-<!-- Point at docs/standards/*.md rather than restating them; note anything genuinely
-     unusual or project-specific here. -->
+See [`docs/standards/`](../standards/). Project-specific: one app per responsibility, each
+deployed as its own Azure service on merge to `main`
+([ADR-003](decisions/ADR-003-monorepo-one-app-per-responsibility.md),
+[ADR-004](decisions/ADR-004-deploy-every-app-to-one-azure-environment.md)).
 
 ## Dependencies
 
-<!-- A short table or list of the notable runtime dependencies and why each is there — not
-     a dump of requirements.in. -->
+None installed yet. Planned: FastAPI, Jinja2, Pydantic, Uvicorn
+([ADR-002](decisions/ADR-002-python-fastapi-stack.md)).
 
 ## Test counts
 
-<!-- Aggregate test counts per app/package, kept current — a quick "is this still tested"
-     signal for anyone (human or AI) about to touch a given area. -->
+0 — no code yet.
 
 ## Methodology compliance
 
-See [`docs/methodology-compliance/`](../methodology-compliance/) — this section is a
-one-line pointer, not a duplicate of the gap register.
+See [`docs/methodology-compliance/`](../methodology-compliance/) — first assessment is part
+of MVP-001.

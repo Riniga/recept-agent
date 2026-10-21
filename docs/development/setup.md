@@ -23,15 +23,15 @@ conda config --add channels conda-forge
 conda install \<paket\>
 
 conda search python
-conda create --name \<your-env-name\> python=3.13
-conda activate \<your-env-name\>
+conda create --name recept-agent python=3.13
+conda activate recept-agent
 
 ### Git
 
 winget install Git.Git
 Create SSH Key: ssh-keygen -t ed25519 -C "Key description"
 Add SSH Key to Github: User->Settings->SSH and GPG keys (https://github.com/settings/keys)
-git clone \<your-repo-ssh-url\>
+git clone git@github.com:Riniga/recept-agent.git
 
 ## Nästa steg — miljö och verktyg
 
@@ -39,7 +39,7 @@ After cloning, follow [`environment.md`](environment.md):
 
 ```bash
 conda env create -f environment.yml
-conda activate <your-env-name>
+conda activate recept-agent
 pre-commit install
 ```
 

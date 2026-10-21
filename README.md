@@ -1,24 +1,29 @@
-# <Project Name>
+# ReceptAgent
 
-<!-- One or two sentences: what this workspace is for. -->
+Turns photographed or scanned paper recipes into a reviewed, searchable recipe library in
+the user's private OneDrive, with an AI assistant that answers questions about the
+collection. Also a demonstration of AI-assisted development with Claude Code and GitHub
+Copilot.
+
+**Owner:** Rickard Nisses-Gagnér (product, engineering, security) · **Status:** initialised —
+no application code yet; [MVP-001](docs/mvp/MVP-001-walking-skeleton.md) is next.
 
 The workspace is designed to grow over time by adding independent applications that share
 a common architecture, development process, coding standards, and reusable components.
 
 ## Vision
 
-<!-- One sentence: the outcome this project exists to create. See docs/vision.md for the
-     full version. -->
+Paper recipes become a library the user owns and can ask questions about — with every AI
+interpretation reviewed and approved by the user. See [`docs/vision.md`](docs/vision.md).
 
 ## Workspace Structure
 
 ```text
-apps/
-    <app-1>/           <what it does>
-    <app-2>/           <what it does>
+apps/                  (planned, MVP-001 — one app per responsibility, each its own Azure service)
+    web/               User-facing app, server-rendered HTML
+    api/               Recipe API
 
-packages/
-    <shared-package>/  Shared libraries and reusable components
+packages/              (none yet — only for code reused by at least two apps)
 
 docs/
     Architecture, development process, standards, roadmap, MVPs and implementation plans
@@ -64,11 +69,12 @@ process, and [`AGENTS.md`](AGENTS.md) for how AI tools work within it.
 
 ## Required GitHub Actions secrets
 
-<!-- List whatever your CI/CD workflows actually need, e.g.: -->
+None yet. The Azure deploy workflow (MVP-001 phase 6) will use OIDC federation; the exact
+secret/variable names are documented here when it is added.
 
 | Secret | Purpose |
 |--------|---------|
-| `<SECRET_NAME>` | <what it's for> |
+| — | — |
 
 ## Documentation
 

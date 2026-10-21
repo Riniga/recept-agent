@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 520" role="img" aria-label="ReceptAgent – förenklad systemöversikt">
+<rect width="950" height="520" rx="16" fill="#f8fafc"/>
+<text x="45" y="50" font-family="Arial,sans-serif" font-size="29" font-weight="bold" fill="#162b49">ReceptAgent – förenklad lösning</text>
+<text x="45" y="77" font-family="Arial,sans-serif" font-size="15" fill="#475569">En webbapp · en Python-kodbas · kontrollerade integrationer</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#64748b"/></marker></defs>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="45" y="190" width="190" height="112" rx="12" fill="#dbeafe" stroke="#5582be" stroke-width="2"/><text x="140" y="226" font-size="18" font-weight="bold" fill="#1e3a5f">Webbgränssnitt</text><text x="140" y="250" font-size="13" fill="#334155">Serverrenderad HTML</text><text x="140" y="271" font-size="13" fill="#334155">Ladda upp · granska · sök</text>
+<rect x="330" y="150" width="290" height="190" rx="16" fill="#eaf1fb" stroke="#5582be" stroke-width="2"/>
+<text x="475" y="180" font-size="19" font-weight="bold" fill="#1e3a5f">En Python-webbapp</text>
+<rect x="370" y="199" width="210" height="43" rx="8" fill="#fff" stroke="#9ab2d0"/><text x="475" y="226" font-size="14" fill="#334155">Receptlogik och validering</text>
+<rect x="370" y="254" width="210" height="43" rx="8" fill="#fff" stroke="#9ab2d0"/><text x="475" y="281" font-size="14" fill="#334155">MCP-verktyg i samma kodbas</text>
+<rect x="710" y="100" width="190" height="86" rx="12" fill="#f3e8ff" stroke="#9563ae" stroke-width="2"/><text x="805" y="136" font-size="17" font-weight="bold" fill="#5b317c">AI-tjänst</text><text x="805" y="159" font-size="13" fill="#5b317c">En vald multimodal modell</text>
+<rect x="710" y="211" width="190" height="86" rx="12" fill="#ffedd5" stroke="#cb8640" stroke-width="2"/><text x="805" y="247" font-size="17" font-weight="bold" fill="#9a3412">OneDrive</text><text x="805" y="270" font-size="13" fill="#9a3412">Recept och original</text>
+<rect x="710" y="322" width="190" height="86" rx="12" fill="#e0e7ff" stroke="#8586c8" stroke-width="2"/><text x="805" y="358" font-size="17" font-weight="bold" fill="#3730a3">SQLite</text><text x="805" y="381" font-size="13" fill="#3730a3">Lokalt, återskapbart index</text>
+</g>
+<g stroke="#64748b" stroke-width="2.5" fill="none" marker-end="url(#a)"><path d="M235 246 H330"/><path d="M620 205 L710 151"/><path d="M620 245 H710"/><path d="M620 285 L710 349"/></g>
+<text x="45" y="455" font-family="Arial,sans-serif" fill="#334155" font-size="16" font-weight="bold">Inga separata frontend-, MCP- eller söktjänster krävs i målbilden.</text>
+<text x="45" y="481" font-family="Arial,sans-serif" fill="#64748b" font-size="14">Receptformat är ännu inte låst. Användaren granskar och godkänner före sparning.</text>
+</svg>
